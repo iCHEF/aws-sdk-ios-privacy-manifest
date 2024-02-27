@@ -54,6 +54,9 @@
   - AWSTranslate
   - AWSUserPoolsSignIn
 
+- **AWSCore**
+  - Updating CocoaLumberjack to version 3.4.8
+
 ## 2.35.0
 
 ### Bug Fixes
