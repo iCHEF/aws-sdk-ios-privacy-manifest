@@ -481,6 +481,8 @@
 		9AD5842720F63E6700042041 /* family_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9AD5842520F63E6700042041 /* family_thumb.jpg */; };
 		9AD5842820F63E6700042041 /* singleface.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9AD5842620F63E6700042041 /* singleface.jpg */; };
 		9AD5842A20F63E9B00042041 /* city_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9AD5842920F63E9B00042041 /* city_thumb.jpg */; };
+		AE46CF042BCD30DD0033CFC4 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = AE46CF032BCD30DD0033CFC4 /* PrivacyInfo.xcprivacy */; };
+		AE46CF062BCD31260033CFC4 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = AE46CF052BCD31260033CFC4 /* PrivacyInfo.xcprivacy */; };
 		B434294122F0FA0E00567E83 /* AWSTextract.h in Headers */ = {isa = PBXBuildFile; fileRef = B434294022F0FA0D00567E83 /* AWSTextract.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B44FBC4823F4B27D008EA8D2 /* AWSSignatureNullabilityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B44FBC4723F4B27D008EA8D2 /* AWSSignatureNullabilityTests.m */; };
 		B47FAF4322C577CE00014548 /* AWSS3TransferUtilityUnitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B47FAF4222C577CE00014548 /* AWSS3TransferUtilityUnitTests.m */; };
@@ -3045,6 +3047,8 @@
 		9AD5842520F63E6700042041 /* family_thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = family_thumb.jpg; sourceTree = "<group>"; };
 		9AD5842620F63E6700042041 /* singleface.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = singleface.jpg; sourceTree = "<group>"; };
 		9AD5842920F63E9B00042041 /* city_thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = city_thumb.jpg; sourceTree = "<group>"; };
+		AE46CF032BCD30DD0033CFC4 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		AE46CF052BCD31260033CFC4 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		B434294022F0FA0D00567E83 /* AWSTextract.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWSTextract.h; sourceTree = "<group>"; };
 		B44FBC4723F4B27D008EA8D2 /* AWSSignatureNullabilityTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AWSSignatureNullabilityTests.m; sourceTree = "<group>"; };
 		B47FAF4222C577CE00014548 /* AWSS3TransferUtilityUnitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AWSS3TransferUtilityUnitTests.m; sourceTree = "<group>"; };
@@ -6088,6 +6092,7 @@
 			children = (
 				CE0D416F1C6A66E5006B91B5 /* AWSCore.h */,
 				CE0D41711C6A66E5006B91B5 /* Info.plist */,
+				AE46CF032BCD30DD0033CFC4 /* PrivacyInfo.xcprivacy */,
 				CE0D41841C6A673E006B91B5 /* Authentication */,
 				CE0D418B1C6A673E006B91B5 /* Bolts */,
 				CE0D419B1C6A673E006B91B5 /* CognitoIdentity */,
@@ -7047,6 +7052,7 @@
 				9A2562F420E2E50A00D2451E /* AWSS3TransferUtilityTasks.h */,
 				9A2562F220E2E4D400D2451E /* AWSS3TransferUtilityTasks.m */,
 				CE9DE9C11C6A7C2E0060793F /* Info.plist */,
+				AE46CF052BCD31260033CFC4 /* PrivacyInfo.xcprivacy */,
 			);
 			path = AWSS3;
 			sourceTree = "<group>";
@@ -11410,6 +11416,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE46CF042BCD30DD0033CFC4 /* PrivacyInfo.xcprivacy in Resources */,
 				EFE40B801CC5BDEF0045D710 /* strip-frameworks.sh in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -11686,6 +11693,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE46CF062BCD31260033CFC4 /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
