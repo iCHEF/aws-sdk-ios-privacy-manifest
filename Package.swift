@@ -8,16 +8,22 @@ let package = Package(
     products: [
         // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
-            name: "aws-sdk-ios-privacy-manifest",
-            targets: ["aws-sdk-ios-privacy-manifest"]),
+            name: "AWSS3",
+            targets: ["AWSS3"]),
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
         // Targets can depend on other targets in this package and products from dependencies.
         .target(
-            name: "aws-sdk-ios-privacy-manifest"),
-        .testTarget(
-            name: "aws-sdk-ios-privacy-manifestTests",
-            dependencies: ["aws-sdk-ios-privacy-manifest"]),
+            name: "AWSCore",
+            path: "AWSCore",
+            publicHeadersPath: "Public"
+        ),
+        .target(
+            name: "AWSS3",
+            dependencies: ["AWSCore"],
+            path: "AWSS3",
+            publicHeadersPath: "Public"
+        )
     ]
 )
